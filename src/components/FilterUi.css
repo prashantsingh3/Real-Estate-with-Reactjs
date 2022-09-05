@@ -1,0 +1,66 @@
+.filter_container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 1px; */
+  }
+  .filter_box {
+    margin: 10px;
+    padding: 2px;
+  }
+  
+  .date_box {
+    width: 2rem;
+    margin-left: 9.5rem;
+    margin-top: 4px;
+    padding: 2px;
+  }
+  
+  .date_boxs {
+    position: relative;
+    bottom: 9px;
+  }
+  
+  .filter_btn {
+    /* position: relative;
+    top:20px; */
+    border-radius: 0.5rem;
+    border: transparent;
+    width: 68px;
+    height: 2rem;
+  
+    background-color: rgb(62, 91, 223);
+    color: white;
+    font-weight: bold;
+  }
+  input::-webkit-datetime-edit {
+    color: transparent;
+  }
+  input:focus::-webkit-datetime-edit {
+    color: #000;
+  }
+  
+  input[type="date"] {
+    border: none;
+  }
+  
+  .filter_box_when {
+    position: relative;
+    top: 21px;
+    font-size: 14px;
+    align-items: center;
+    color: #1f1d1d79;
+  }
+  
+  #start_move {
+    /* border:2px solid black; */
+    width: 9.4rem;
+    position: relative;
+    top: 25px;
+    align-items: center;
+    color: #1a1717;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,19 @@
+.dd_container {
+    padding: 1rem;
+    line-height: 1.3rem;
+  }
+  .dd_container div {
+    color: #1f1d1d79;
+    font-size: 14px;
+  }
+  
+  .dd_container select {
+    position: relative;
+    right: 3.8px;
+    border: transparent;
+    background-color: transparent;
+    color: #1a1717;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
